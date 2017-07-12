@@ -1,6 +1,21 @@
 * {
   border: solid 1px black; }
 
+body {
+  width: auto; }
+
+/* MAIN NAVIGATION */
+.mainnav {
+  height: 80px;
+  width: auto; }
+  .mainnav ul {
+    width: auto; }
+    .mainnav ul li {
+      width: 90px;
+      display: inline-block;
+      align: right; }
+
+/* HOMEPAGE HEADER */
 h1 {
   font-size: 220px; }
 
