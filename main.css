@@ -1,25 +1,34 @@
 * {
-  border: solid 1px black; }
+  border: solid 1px black;
+}
 
 body {
-  width: auto; }
+  width: auto;
+}
 
 /* MAIN NAVIGATION */
 .mainnav {
   height: 80px;
-  width: auto; }
-  .mainnav ul {
-    width: auto; }
-    .mainnav ul li {
-      width: 90px;
-      display: inline-block;
-      align: right; }
+  width: auto;
+}
+
+.mainnav ul {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+}
+
+.mainnav ul li {
+  width: 90px;
+  display: inline-block;
+  align: right;
+}
 
 /* HOMEPAGE HEADER */
 h1 {
-  font-size: 220px; }
+  font-size: 220px;
+}
 
 p {
-  font-size: 20px; }
-
-/*# sourceMappingURL=main.css.map */
+  font-size: 20px;
+}
