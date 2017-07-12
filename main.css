@@ -1,7 +1,10 @@
-body h1 {
-  font-size: 220px;
-}
+* {
+  border: solid 1px black; }
 
-body p {
-  font-size: 20px;
-}
+h1 {
+  font-size: 220px; }
+
+p {
+  font-size: 20px; }
+
+/*# sourceMappingURL=main.css.map */
