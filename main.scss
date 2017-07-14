@@ -1,5 +1,7 @@
 *{
     border: solid 1px black;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
@@ -15,14 +17,23 @@ body {
     display: flex;
     justify-content: flex-end;
     width: auto;
+    height: 100%;
+    list-style: none;
     li {
+      display: flex;
       width: 90px;
-      display: inline-block;
-      align: right;
+      height: 100%;
+      a {
+        width: 100%;
+        height: 100%;
+      }
     }
-
+    li:first-child {
+      margin-right: auto;
+    }
   }
 }
+
 
 /* HOMEPAGE HEADER */
 
